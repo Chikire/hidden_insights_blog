@@ -7,20 +7,6 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hidden Insights From Smart Watches Data That Everyone Must Know For A Healthy Lifestyle",
@@ -67,7 +53,14 @@
     "href": "index.html#the-tech-behind-the-scenes",
     "title": "Hidden Insights From Smart Watches Data That Everyone Must Know For A Healthy Lifestyle",
     "section": "The Tech Behind The Scenes",
-    "text": "The Tech Behind The Scenes\nMachine Learning Algorithms(Khan et al. 2025):\n\nSupport Vector Machines (SVM): Handling high-dimensional data (lots of different measurements at once)\nDecision Trees & Random Forests: Making interpretable predictions about your health\nLogistic Regression: Predicting binary outcomes (will you hit your step goal today or not?)\n\nDeep Learning:\n\nConvolutional Neural Networks (CNNs): Recognizing patterns in your sensor data\nRecurrent Neural Networks (RNNs) & LSTMs: Analyzing time-series data like continuous heart rate monitoring and ECG signals (Khan et al. 2025)\n\nUnsupervised Learning:\n\nK-Means & Hierarchical Clustering: Grouping similar patterns in your activity and health data\nPrincipal Component Analysis (PCA): Simplifying complex data while keeping what matters (Khan et al. 2025)\n\n\n\n\n\n\n\nFigure 4: Different ML & AI Models (Khan et al. 2025)\n\n\n\nThe models included in the category in Figure 4 are typical examples, such as SVM , Decision Trees, Linear Regression for continuous variables, Logistic Regression for classification of variables, and ensemble techniques that improve accuracy. ## Real-World Applications You are Already Using\nThese algorithms power some pretty amazing features (Khan et al. 2025):\n\nActivity Recognition: Your watch knows if you’re walking, running, cycling, or sitting.\nCardiovascular Monitoring: Detecting irregular heart rhythms and potential cardiac issues\nSleep Analysis: Identifying sleep problems like insomnia or sleep apnea\nStress Detection: Real-time stress assessment using your body’s signals\nDisease Prediction: Early warning signs for chronic conditions like diabetes or hypertension"
+    "text": "The Tech Behind The Scenes\nMachine Learning Algorithms(Khan et al. 2025):\n\nSupport Vector Machines (SVM): Handling high-dimensional data (lots of different measurements at once)\nDecision Trees & Random Forests: Making interpretable predictions about your health\nLogistic Regression: Predicting binary outcomes (will you hit your step goal today or not?)\n\nDeep Learning:\n\nConvolutional Neural Networks (CNNs): Recognizing patterns in your sensor data\nRecurrent Neural Networks (RNNs) & LSTMs: Analyzing time-series data like continuous heart rate monitoring and ECG signals (Khan et al. 2025)\n\nUnsupervised Learning:\n\nK-Means & Hierarchical Clustering: Grouping similar patterns in your activity and health data\nPrincipal Component Analysis (PCA): Simplifying complex data while keeping what matters (Khan et al. 2025)\n\n\n\n\n\n\n\nFigure 4: Different ML & AI Models (Khan et al. 2025)\n\n\n\nThe models included in the category in Figure 4 are typical examples, such as SVM , Decision Trees, Linear Regression for continuous variables, Logistic Regression for classification of variables, and ensemble techniques that improve accuracy."
+  },
+  {
+    "objectID": "index.html#real-world-applications-you-are-already-using",
+    "href": "index.html#real-world-applications-you-are-already-using",
+    "title": "Hidden Insights From Smart Watches Data That Everyone Must Know For A Healthy Lifestyle",
+    "section": "Real-World Applications You are Already Using",
+    "text": "Real-World Applications You are Already Using\nThese algorithms power some pretty amazing features (Khan et al. 2025):\n\nActivity Recognition: Your watch knows if you’re walking, running, cycling, or sitting.\nCardiovascular Monitoring: Detecting irregular heart rhythms and potential cardiac issues\nSleep Analysis: Identifying sleep problems like insomnia or sleep apnea\nStress Detection: Real-time stress assessment using your body’s signals\nDisease Prediction: Early warning signs for chronic conditions like diabetes or hypertension"
   },
   {
     "objectID": "index.html#why-this-matters-for-your-daily-life",
@@ -88,7 +81,7 @@
     "href": "index.html#the-accuracy-issue",
     "title": "Hidden Insights From Smart Watches Data That Everyone Must Know For A Healthy Lifestyle",
     "section": "The Accuracy Issue",
-    "text": "The Accuracy Issue\nWhile smartwatches generally perform well, real-world accuracy is complicated (Köhler et al. 2024):\nMeasurement Precision Varies A Lot: - ECG readings: 65% to 99% accuracy (that’s a huge range!) - Blood oxygen (SpO2): 90% to 96% accuracy - Step counts: Can have errors if you are using walking aids\n\nLab vs. real life: Most validation happens in controlled labs, not during your busy real life.\n\nData Quality Can Be Sketchy (Khan et al. 2025): - Sensors are not always accurate, and different devices vary - Battery dies, connectivity drops, or you forget to wear your watch - Measurements do not always match medical-grade equipment - How you wear your watch really matters for data reliability (Köhler et al. 2024)"
+    "text": "The Accuracy Issue\nWhile smartwatches generally perform well, real-world accuracy is complicated (Köhler et al. 2024):\nMeasurement Precision Varies A Lot:\n\nECG readings: 65% to 99% accuracy (that’s a huge range!)\nBlood oxygen (SpO2): 90% to 96% accuracy\nStep counts: Can have errors if you are using walking aids\nLab vs. real life: Most validation happens in controlled labs, not during your busy real life.\n\nData Quality Can Be Sketchy (Khan et al. 2025): - Sensors are not always accurate, and different devices vary - Battery dies, connectivity drops, or you forget to wear your watch - Measurements do not always match medical-grade equipment - How you wear your watch really matters for data reliability (Köhler et al. 2024)"
   },
   {
     "objectID": "index.html#the-black-box-problem",

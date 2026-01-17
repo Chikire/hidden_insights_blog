@@ -117,6 +117,7 @@ Ever gotten that "Time to stand!" notification? That's nudging. Your watch uses 
 ![Different ML & AI Models [@Khan_2025]](img/AI_models.webp){#fig-model width=50%} 
 
 The models included in the category in  @fig-model are typical examples, such as SVM , Decision Trees, Linear Regression for continuous variables, Logistic Regression for classification of variables, and ensemble techniques that improve accuracy.
+
 ## Real-World Applications You are Already Using
 
 These algorithms power some pretty amazing features [@Khan_2025]:
@@ -176,6 +177,7 @@ Before you start trusting your watch with your life, they are not perfect. They 
 While smartwatches generally perform well, real-world accuracy is complicated [@Kohler_2024]:
 
 **Measurement Precision Varies A Lot**:
+
 - ECG readings: 65% to 99% accuracy (that's a huge range!)
 - Blood oxygen (SpO2): 90% to 96% accuracy
 - Step counts: Can have errors if you are using walking aids

@@ -100,9 +100,9 @@ div.csl-indent {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -213,7 +213,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YW5hbHlzaXM=">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -321,7 +321,10 @@ Figure&nbsp;4: Different ML &amp; AI Models <span class="citation" data-cites="K
 </figcaption>
 </figure>
 </div>
-<p>The models included in the category in <a href="#fig-model" class="quarto-xref">Figure&nbsp;4</a> are typical examples, such as SVM , Decision Trees, Linear Regression for continuous variables, Logistic Regression for classification of variables, and ensemble techniques that improve accuracy. ## Real-World Applications You are Already Using</p>
+<p>The models included in the category in <a href="#fig-model" class="quarto-xref">Figure&nbsp;4</a> are typical examples, such as SVM , Decision Trees, Linear Regression for continuous variables, Logistic Regression for classification of variables, and ensemble techniques that improve accuracy.</p>
+</section>
+<section id="real-world-applications-you-are-already-using" class="level2">
+<h2 class="anchored" data-anchor-id="real-world-applications-you-are-already-using">Real-World Applications You are Already Using</h2>
 <p>These algorithms power some pretty amazing features <span class="citation" data-cites="Khan_2025">(<a href="#ref-Khan_2025" role="doc-biblioref">Khan et al. 2025</a>)</span>:</p>
 <ul>
 <li><strong>Activity Recognition</strong>: Your watch knows if you’re walking, running, cycling, or sitting.</li>
@@ -358,9 +361,12 @@ Figure&nbsp;4: Different ML &amp; AI Models <span class="citation" data-cites="K
 <section id="the-accuracy-issue" class="level2">
 <h2 class="anchored" data-anchor-id="the-accuracy-issue">The Accuracy Issue</h2>
 <p>While smartwatches generally perform well, real-world accuracy is complicated <span class="citation" data-cites="Kohler_2024">(<a href="#ref-Kohler_2024" role="doc-biblioref">Köhler et al. 2024</a>)</span>:</p>
-<p><strong>Measurement Precision Varies A Lot</strong>: - ECG readings: 65% to 99% accuracy (that’s a huge range!) - Blood oxygen (SpO2): 90% to 96% accuracy - Step counts: Can have errors if you are using walking aids</p>
+<p><strong>Measurement Precision Varies A Lot</strong>:</p>
 <ul>
-<li><strong>Lab vs.&nbsp;real life</strong>: Most validation happens in controlled labs, not during your busy real life.</li>
+<li><p>ECG readings: 65% to 99% accuracy (that’s a huge range!)</p></li>
+<li><p>Blood oxygen (SpO2): 90% to 96% accuracy</p></li>
+<li><p>Step counts: Can have errors if you are using walking aids</p></li>
+<li><p><strong>Lab vs.&nbsp;real life</strong>: Most validation happens in controlled labs, not during your busy real life.</p></li>
 </ul>
 <p><strong>Data Quality Can Be Sketchy</strong> <span class="citation" data-cites="Khan_2025">(<a href="#ref-Khan_2025" role="doc-biblioref">Khan et al. 2025</a>)</span>: - Sensors are not always accurate, and different devices vary - Battery dies, connectivity drops, or you forget to wear your watch - Measurements do not always match medical-grade equipment - How you wear your watch <em>really matters</em> for data reliability <span class="citation" data-cites="Kohler_2024">(<a href="#ref-Kohler_2024" role="doc-biblioref">Köhler et al. 2024</a>)</span></p>
 </section>
@@ -442,70 +448,7 @@ Figure&nbsp;5
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1768377600000" data-listing-file-modified-sort="1768435433777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail"><a href="./posts/post-with-code/index.html" class="no-external">
 
-<img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/post-with-code/index.html" class="no-external">
-This is a post with executable code.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Jan 14, 2026
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1768118400000" data-listing-file-modified-sort="1768435433776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-This is the first post in a Quarto blog. Welcome!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jan 11, 2026
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
