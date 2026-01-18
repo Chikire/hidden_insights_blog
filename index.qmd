@@ -3,7 +3,6 @@ title: "Hidden Insights From Smart Watches Data That Everyone Must Know For A He
 page-layout: full
 title-block-banner: true
 bibliography: references.bib
-csl: https://www.zotero.org/styles/nature
 ---
 
 ![Smart Tech](img/daniel-canibano-JE3ASpuEld4-unsplash.jpg){#fig-intro width=70%}
